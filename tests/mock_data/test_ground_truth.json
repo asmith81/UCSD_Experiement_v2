@@ -1,0 +1,12 @@
+{
+    "test_image": {
+        "work_order_number": {
+            "raw_value": "WO12345",
+            "normalized_value": "WO12345"
+        },
+        "total_cost": {
+            "raw_value": "$950.00",
+            "normalized_value": 950.00
+        }
+    }
+} 

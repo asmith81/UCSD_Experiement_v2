@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Error Handling (Simplified)
+- Focus on core error handling for critical operations
+- Use try/except blocks with meaningful error messages
+- Log errors immediately when they occur
+- Design for graceful crash recovery with result tracking
+- Skip complex error hierarchies in favor of basic error types

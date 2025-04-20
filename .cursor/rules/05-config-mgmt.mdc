@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Configuration Management
+- Use simple configuration files (YAML or JSON)
+- Move environment setup, dependencies, and paths to source modules
+- Store prompt templates in separate files for reference
+- Keep model-specific loading and inference functions in source code
+- Allow notebooks to be thin execution environments

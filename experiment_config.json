@@ -1,0 +1,4952 @@
+{
+  "pixtral": {
+    "4": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "8": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "16": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "32": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    }
+  },
+  "llama": {
+    "4": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "8": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "16": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "32": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    }
+  },
+  "doct": {
+    "4": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "8": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "16": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    },
+    "32": {
+      "basic_extraction": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "detailed": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "few_shot": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "locational": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      },
+      "step_by_step": {
+        "1017": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1017.jpg"
+        },
+        "1018": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1018.jpg"
+        },
+        "1019": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1019.jpg"
+        },
+        "1020": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1020.jpg"
+        },
+        "1021": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1021.jpg"
+        },
+        "1022": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1022.jpg"
+        },
+        "1023": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1023.jpg"
+        },
+        "1025": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1025.jpg"
+        },
+        "1026": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1026.jpg"
+        },
+        "1027": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1027.jpg"
+        },
+        "1028": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1028.jpg"
+        },
+        "1029": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1029.jpg"
+        },
+        "1030": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1030.jpg"
+        },
+        "1031": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1031.jpg"
+        },
+        "1038": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1038.jpg"
+        },
+        "1039": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1039.jpg"
+        },
+        "1040": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1040.jpg"
+        },
+        "1041": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1041.jpg"
+        },
+        "1042": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1042.jpg"
+        },
+        "1043": {
+          "field_type": "both",
+          "image_path": "UCSD_MJM_Experiment/data/images/1043.jpg"
+        }
+      }
+    }
+  }
+}

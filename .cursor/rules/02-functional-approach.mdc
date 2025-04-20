@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Functional Programming Approach
+- Use stateless functions that transform data rather than complex classes
+- Minimize state management to reduce complexity
+- Use simple data structures (dictionaries, lists) for data exchange
+- Focus on pipeline-oriented processing for clarity
+- Clear input/output contracts for each function

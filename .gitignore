@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+*.ipynb.meta
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local development
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Distribution
+*.tar.gz
+*.zip
+*.rar
+
+# System Files
+Thumbs.db
+.DS_Store
+*.db
+*.sqlite3
+
+# Model related
+# models/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+runs/
+wandb/
+mlruns/
+tensorboard/
+
+!src/models/
+
+# Data (excluding ground-truth)
+data/raw/
+data/processed/
+data/interim/
+data/external/
+!data/raw/ground-truth.csv
+!data/raw/*-ground-truth.csv
+!data/raw/ground-truth-*.csv
+*.xlsx
+*.xls
+# *.json # we need these pushed to run pod
+# *.yaml # we need these pushed to run pod
+*.yml
+*.npy
+*.npz
+

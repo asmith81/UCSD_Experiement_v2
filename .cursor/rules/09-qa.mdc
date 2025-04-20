@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Despite the rapid implementation focus, maintain these quality standards:
+1. All functions should be documented
+2. Critical paths should have error handling
+3. Results should be logged consistently
+4. Code should be readable and maintainable
+5. Processing pipeline should be resumable after crashes

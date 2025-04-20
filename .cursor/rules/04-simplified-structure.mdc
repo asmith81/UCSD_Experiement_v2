@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Simplified Structure
+- Organize code by function rather than complex inheritance hierarchies
+- Use utility modules with logical grouping of related functions
+- Create thin notebooks that import functionality from utility modules
+- Keep core logic in utility modules, not notebooks
+- Minimize interdependencies between components

@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+**Early Validation**: Validate each component as it's implemented
+**Incremental Testing**: Add features and tests incrementally
+**Frequency**: Write and execute unit tests and integration tests after each phase in [project_todo.md](mdc:project_todo.md)

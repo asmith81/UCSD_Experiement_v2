@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Documentation
+- Document all functions with clear docstrings
+- Include parameters and return values in docstrings
+- Add inline comments for complex operations
+- Use markdown cells in notebooks to explain process
+- Maintain clear README files in key directories
+- Update README and documentation files after every chekmark in [project_todo.md](mdc:project_todo.md)

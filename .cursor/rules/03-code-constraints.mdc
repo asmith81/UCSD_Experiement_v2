@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Code Constraints (Simplified)
+- Favor readability over complex abstractions
+- Maximum 100 characters per line
+- Keep functions small and focused (ideally < 25 lines)
+- Maximum 3 levels of nesting in any function
+- Prioritize simplicity over extensibility for this phase

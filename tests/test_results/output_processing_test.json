@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "experiment_id": "exp-20250414-182332",
+    "timestamp": "2025-04-14T18:23:32.716963",
+    "environment": "local_test"
+  },
+  "test_parameters": {
+    "model_name": "pixtral",
+    "field_type": "both",
+    "prompt_type": "basic_extraction",
+    "quant_level": 32
+  },
+  "results_by_image": {
+    "test_image_001": {
+      "ground_truth": {
+        "work_order_number": "20502",
+        "total_cost": "950.00"
+      },
+      "model_response": {
+        "work_order_number": {
+          "raw_text": "Please extract the following information from this invoice:\nWork Order Number\nTotal Cost\nReturn the information in JSON format with these exact keys: { \"work_order_number\": \"extracted value\", \"total_cost\": \"extracted value\" }\n\n{\n  \"work_order_number\": \"20502\",\n  \"total_cost\": \"950.00\"\n}",
+          "parsed_value": "20502",
+          "normalized_value": "20502"
+        },
+        "total_cost": {
+          "raw_text": "Please extract the following information from this invoice:\nWork Order Number\nTotal Cost\nReturn the information in JSON format with these exact keys: { \"work_order_number\": \"extracted value\", \"total_cost\": \"extracted value\" }\n\n{\n  \"work_order_number\": \"20502\",\n  \"total_cost\": \"950.00\"\n}",
+          "parsed_value": "950.00",
+          "normalized_value": 950.0
+        },
+        "processing_time": 4.31
+      },
+      "evaluation": {
+        "work_order_number": {
+          "raw_string_match": true,
+          "normalized_match": true,
+          "cer": 0.0,
+          "error_category": "no_error"
+        },
+        "total_cost": {
+          "raw_string_match": true,
+          "normalized_match": true,
+          "cer": 0.0,
+          "error_category": "no_error"
+        }
+      }
+    }
+  }
+}

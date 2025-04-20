@@ -1,0 +1,404 @@
+{
+    "notebook": "notebooks/pixtral_evaluation.py",
+    "cells": [
+        {
+            "id": "environment_setup",
+            "description": "Setup environment and logging",
+            "required_functions": [
+                {
+                    "name": "setup_environment",
+                    "path": "src/environment.py",
+                    "signature": {
+                        "parameters": {
+                            "cuda_visible_devices": {"type": "Optional[str]", "default": "None"},
+                            "seed": {"type": "int", "default": 42},
+                            "project_root": {"type": "Optional[Path]", "default": "None"}
+                        },
+                        "returns": "Dict[str, Any]"
+                    },
+                    "dependencies": [
+                        {
+                            "name": "_find_project_root",
+                            "path": "src/environment.py",
+                            "signature": {
+                                "parameters": {},
+                                "returns": "Path"
+                            }
+                        },
+                        {
+                            "name": "_setup_paths",
+                            "path": "src/environment.py",
+                            "signature": {
+                                "parameters": {
+                                    "project_root": {"type": "Path"}
+                                },
+                                "returns": "Dict[str, Path]"
+                            }
+                        },
+                        {
+                            "name": "_setup_logging",
+                            "path": "src/environment.py",
+                            "signature": {
+                                "parameters": {
+                                    "logs_dir": {"type": "Path"}
+                                },
+                                "returns": "Dict[str, Any]"
+                            }
+                        }
+                    ],
+                    "error_patterns": [
+                        {
+                            "code": "ENV001",
+                            "message": "Invalid CUDA device string",
+                            "recovery": "Use default device configuration"
+                        },
+                        {
+                            "code": "ENV002",
+                            "message": "Project root not found",
+                            "recovery": "Search parent directories"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "model_loading",
+            "description": "Load model and processor",
+            "required_functions": [
+                {
+                    "name": "load_model",
+                    "path": "src/models/loader.py",
+                    "signature": {
+                        "parameters": {
+                            "model_name": {"type": "str"},
+                            "config": {"type": "Dict[str, Any]"},
+                            "models_dir": {"type": "Optional[Path]", "default": "None"}
+                        },
+                        "returns": "Tuple[Any, Any]"
+                    },
+                    "dependencies": [
+                        {
+                            "name": "get_model_path",
+                            "path": "src/models/loader.py",
+                            "signature": {
+                                "parameters": {
+                                    "model_name": {"type": "str"},
+                                    "models_dir": {"type": "Optional[Path]"}
+                                },
+                                "returns": "Path"
+                            }
+                        },
+                        {
+                            "name": "get_hf_token",
+                            "path": "src/models/loader.py",
+                            "signature": {
+                                "parameters": {},
+                                "returns": "str"
+                            }
+                        },
+                        {
+                            "name": "_load_pixtral",
+                            "path": "src/models/loader.py",
+                            "signature": {
+                                "parameters": {
+                                    "model_name": {"type": "str"},
+                                    "config": {"type": "Dict[str, Any]"},
+                                    "models_dir": {"type": "Optional[Path]"}
+                                },
+                                "returns": "Tuple[LlavaForConditionalGeneration, AutoProcessor]"
+                            },
+                            "dependencies": [
+                                {
+                                    "name": "LlavaForConditionalGeneration",
+                                    "path": "transformers",
+                                    "type": "class"
+                                },
+                                {
+                                    "name": "AutoProcessor",
+                                    "path": "transformers",
+                                    "type": "class"
+                                }
+                            ]
+                        }
+                    ],
+                    "error_patterns": [
+                        {
+                            "code": "MOD001",
+                            "message": "Model file not found",
+                            "recovery": "Download from Hugging Face"
+                        },
+                        {
+                            "code": "MOD002",
+                            "message": "Invalid model configuration",
+                            "recovery": "Use default configuration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "test_execution",
+            "description": "Execute test suite",
+            "required_functions": [
+                {
+                    "name": "run_test_suite",
+                    "path": "src/execution.py",
+                    "signature": {
+                        "parameters": {
+                            "model_name": {"type": "str"},
+                            "test_matrix_path": {"type": "Union[str, Path]"},
+                            "model_loader": {"type": "Optional[ModelLoader]", "default": "None"},
+                            "processor": {"type": "Optional[ModelProcessor]", "default": "None"}
+                        },
+                        "returns": "List[Dict[str, Any]]"
+                    },
+                    "dependencies": [
+                        {
+                            "name": "ModelProcessor",
+                            "path": "src/execution.py",
+                            "type": "class",
+                            "methods": [
+                                {
+                                    "name": "_validate_model_components",
+                                    "signature": {
+                                        "parameters": {},
+                                        "returns": "None"
+                                    }
+                                },
+                                {
+                                    "name": "_validate_input",
+                                    "signature": {
+                                        "parameters": {
+                                            "image": {"type": "Union[Image.Image, Dict[str, Any]]"},
+                                            "prompt": {"type": "str"}
+                                        },
+                                        "returns": "None"
+                                    }
+                                },
+                                {
+                                    "name": "_log_raw_output",
+                                    "signature": {
+                                        "parameters": {
+                                            "raw_output": {"type": "Any"},
+                                            "test_id": {"type": "str"}
+                                        },
+                                        "returns": "None"
+                                    }
+                                },
+                                {
+                                    "name": "_process_output",
+                                    "signature": {
+                                        "parameters": {
+                                            "raw_output": {"type": "Any"},
+                                            "formatted_input": {"type": "Any"}
+                                        },
+                                        "returns": "Dict[str, Any]"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "error_patterns": [
+                        {
+                            "code": "TEST001",
+                            "message": "Test matrix not found",
+                            "recovery": "Use default test cases"
+                        },
+                        {
+                            "code": "TEST002",
+                            "message": "Model processing failed",
+                            "recovery": "Log error and continue"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "result_processing",
+            "description": "Process and save results",
+            "required_functions": [
+                {
+                    "name": "process_results",
+                    "path": "src/results.py",
+                    "dependencies": [
+                        {
+                            "name": "_validate_result_structure",
+                            "path": "src/results.py"
+                        },
+                        {
+                            "name": "_generate_summary",
+                            "path": "src/results.py"
+                        },
+                        {
+                            "name": "save_result",
+                            "path": "src/results.py"
+                        },
+                        {
+                            "name": "concatenate_results",
+                            "path": "src/results.py"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "function_principles": {
+        "single_responsibility": true,
+        "input_validation": true,
+        "error_handling": true,
+        "logging": true,
+        "documentation": true
+    },
+    "data_flow_validation": {
+        "setup_environment": {
+            "input": "None",
+            "output": "Dict[str, Any]",
+            "validation_chain": [
+                "_find_project_root",
+                "_setup_paths",
+                "_setup_logging"
+            ]
+        },
+        "load_model": {
+            "input": "Dict[str, Any]",
+            "output": "Tuple[Any, Any]",
+            "validation_chain": [
+                "get_model_path",
+                "get_hf_token",
+                "_load_pixtral"
+            ]
+        },
+        "run_test_suite": {
+            "input": "Dict[str, Any]",
+            "output": "List[Dict[str, Any]]",
+            "validation_chain": [
+                "ModelProcessor",
+                "_default_processor"
+            ],
+            "error_handling": {
+                "raw_output_logging": {
+                    "path": "results/raw/{test_id}_raw.json",
+                    "error_handling": "continue_on_error"
+                },
+                "output_processing": {
+                    "error_handling": "include_in_result"
+                }
+            }
+        },
+        "process_results": {
+            "input": "List[Dict[str, Any]]",
+            "output": "Dict[str, Any]",
+            "validation_chain": [
+                "_validate_result_structure",
+                "_generate_summary",
+                "save_result"
+            ]
+        }
+    },
+    "logging_strategy": {
+        "raw_outputs": {
+            "location": "results/raw",
+            "format": "json",
+            "naming": "{test_id}_raw.json",
+            "error_handling": "continue_on_error"
+        },
+        "processed_results": {
+            "location": "results/processed",
+            "format": "json",
+            "error_handling": "include_in_result"
+        },
+        "error_logs": {
+            "location": "logs",
+            "format": "text",
+            "error_handling": "always_log"
+        }
+    },
+    "data_flow": {
+        "environment_setup": {
+            "input": "None",
+            "output": "Dict[str, Any]",
+            "transformations": [
+                {
+                    "step": "find_root",
+                    "input": "None",
+                    "output": "Path",
+                    "error_handling": "ENV002"
+                },
+                {
+                    "step": "setup_paths",
+                    "input": "Path",
+                    "output": "Dict[str, Path]",
+                    "error_handling": "ENV001"
+                }
+            ]
+        },
+        "model_loading": {
+            "input": "Dict[str, Any]",
+            "output": "Tuple[Any, Any]",
+            "transformations": [
+                {
+                    "step": "get_path",
+                    "input": "str",
+                    "output": "Path",
+                    "error_handling": "MOD001"
+                },
+                {
+                    "step": "load_model",
+                    "input": "Path",
+                    "output": "Tuple[Any, Any]",
+                    "error_handling": "MOD002"
+                }
+            ]
+        },
+        "test_execution": {
+            "input": "Dict[str, Any]",
+            "output": "List[Dict[str, Any]]",
+            "transformations": [
+                {
+                    "step": "validate",
+                    "input": "Dict[str, Any]",
+                    "output": "None",
+                    "error_handling": "TEST001"
+                },
+                {
+                    "step": "process",
+                    "input": "Any",
+                    "output": "Dict[str, Any]",
+                    "error_handling": "TEST002"
+                }
+            ]
+        }
+    },
+    "error_codes": {
+        "ENV001": {
+            "description": "Environment setup error",
+            "severity": "high",
+            "recovery": "Use default configuration"
+        },
+        "ENV002": {
+            "description": "Project root not found",
+            "severity": "critical",
+            "recovery": "Search parent directories"
+        },
+        "MOD001": {
+            "description": "Model file not found",
+            "severity": "high",
+            "recovery": "Download from Hugging Face"
+        },
+        "MOD002": {
+            "description": "Invalid model configuration",
+            "severity": "medium",
+            "recovery": "Use default configuration"
+        },
+        "TEST001": {
+            "description": "Test matrix not found",
+            "severity": "high",
+            "recovery": "Use default test cases"
+        },
+        "TEST002": {
+            "description": "Model processing failed",
+            "severity": "medium",
+            "recovery": "Log error and continue"
+        }
+    }
+} 

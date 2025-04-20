@@ -1,0 +1,193 @@
+# DocTR model configuration
+
+# Model architecture
+architecture:
+  name: "doctr"
+  version: "1.0"
+  framework: "doctr"
+  model_type: "document-analysis"
+  tokenizer: "doctr-tokenizer"
+
+# Hardware requirements
+hardware:
+  min_gpu_memory_gb: 8
+  recommended_gpu_memory_gb: 16
+  supported_devices:
+    - "cuda"
+    - "cpu"
+  quantization_support: true
+
+# Inference parameters
+inference:
+  max_new_tokens: 500
+  do_sample: false
+  temperature: 1.0
+  top_k: 50
+  top_p: 0.95
+  batch_size: 1
+  max_batch_memory_gb: 10
+
+# Performance monitoring
+performance:
+  expected_accuracy: 0.65
+  inference_timeout_seconds: 15
+  gpu_utilization_threshold: 0.9
+  metrics:
+    - gpu_utilization
+    - inference_time
+    - accuracy
+    - memory_usage
+
+# Error handling
+error_handling:
+  retry_attempts: 1
+  fallback_strategy: "cpu_fallback"
+  critical_error_fields:
+    - device_map
+    - torch_dtype
+    - trust_remote_code
+  error_categories:
+    - memory_error
+    - timeout_error
+    - validation_error
+    - inference_error
+
+# Model-specific parameters
+model_params:
+  image_processor: "doctr-image-processor"
+  max_image_size: [4032, 3024]
+  image_format: "RGB"
+  text_processor: "doctr-text-processor"
+  max_text_length: 512
+  special_tokens:
+    - "[IMG]"
+    - "[/IMG]"
+    - "[INST]"
+    - "[/INST]"
+
+# Basic model information
+name: "doctr"
+repo_id: "mindee/doctr"
+description: "Doctr document understanding model for invoice processing"
+processor_type: "DocumentProcessor"
+
+# Architecture details
+architecture:
+  detection:
+    model: "db_resnet50"  # DBNet for text detection
+    pretrained: true
+  recognition:
+    model: "crnn_vgg16_bn"  # CRNN for text recognition
+    pretrained: true
+  kie:
+    enabled: true
+    classes:
+      - "work_order_number"
+      - "total_cost"
+    confidence_threshold: 0.7
+
+# Framework preference
+framework:
+  backend: "torch"  # Using PyTorch backend
+  version: "2.0.0"
+  dependencies:
+    - "python-doctr[torch]"
+    - "python-doctr[viz]"  # For visualization
+    - "python-doctr[html]"  # For webpage support
+
+# Hardware requirements
+hardware:
+  gpu_required: false  # Can run on CPU
+  gpu_memory_min: "8GB"  # Much lower memory requirement
+  recommended_gpu: "T4 or better"
+  minimum_compute_capability: "6.0"  # Lower compute requirement
+
+# Loading configuration
+loading:
+  default_strategy: "optimized"
+  default_params:
+    torch_dtype: "float32"  # Doctr typically uses float32
+    device_map: "auto"  # Can run on CPU or GPU
+    use_auth_token: false
+    use_flash_attention_2: false  # Not applicable to Doctr
+    attn_implementation: "eager"
+
+# Document handling
+document_types:
+  supported:
+    - "pdf"
+    - "image"
+    - "multi_page"
+  preprocessing:
+    pdf:
+      dpi: 300
+      convert_to_rgb: true
+    image:
+      max_size: [1120, 1120]
+      convert_to_rgb: true
+      normalize: true
+
+# Output structure
+output:
+  format: "json"
+  structure:
+    page:
+      blocks:
+        lines:
+          words:
+            text: str
+            confidence: float
+            geometry: list
+      predictions:
+        work_order_number:
+          text: str
+          confidence: float
+          geometry: list
+        total_cost:
+          text: str
+          confidence: float
+          geometry: list
+
+# Quantization options
+quantization:
+  default: "float32"
+  options:
+    float32:
+      torch_dtype: "float32"
+      device_map: "auto"
+      use_flash_attention_2: false
+      attn_implementation: "eager"
+    
+    int8:
+      load_in_8bit: true
+      device_map: "auto"
+      use_flash_attention_2: false
+      attn_implementation: "eager"
+      bnb_8bit_quant_type: "fp8"
+    
+    int4:
+      load_in_4bit: true
+      bnb_4bit_compute_dtype: "float32"
+      bnb_4bit_quant_type: "nf4"
+      device_map: "auto"
+      use_flash_attention_2: false
+      attn_implementation: "eager"
+
+# Prompt configuration
+prompt:
+  format: |
+    Extract the following information from the invoice:
+    
+    {prompt_text}
+    
+    Return the information in this exact format:
+    {{
+      "work_order_number": "extracted value",
+      "total_cost": "extracted value"
+    }}
+  image_placeholder: null  # Doctr handles images differently
+  system_prompt: "Extract information from invoices"
+  response_format: "json"
+  field_mapping:
+    work_order_number: ["work order", "wo", "work order number"]
+    total_cost: ["total", "amount due", "total cost"] 

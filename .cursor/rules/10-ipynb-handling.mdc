@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Notebook Handling
+## File Types
+- Do not attempt to write ipynb files.
+- Write all notebook files in .py format
+- All testing and debugging will be done in .py format then we will convert to .ipynb using jupytext
+## Environment setup
+- Each notebook must be structured to act independently in a separate kernel
+- All dependencies must be installed at the beginning of each notebook
+- All paths need to be re-established with respect to root at the beginning of each notebook
+    - Use a separate cell to determine the root dir
+## Scope
+- All notebooks should be thinly scoped as user-interface documents.  Most processing should be done by calls to source code
+
