@@ -6,7 +6,7 @@ from typing import Dict, Any, List, Optional, Union
 from pathlib import Path
 import torch
 from datetime import datetime
-from .config_protocol import ConfigManager
+from src.config_protocol import ConfigManager
 from .validation import ValidationManager
 from .performance_optimizer import PerformanceOptimizer
 

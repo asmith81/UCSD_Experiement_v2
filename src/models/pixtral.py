@@ -16,7 +16,7 @@ import time
 from transformers import BitsAndBytesConfig
 import json
 from .base_model import BaseModel
-from .config_protocol import ConfigManager, ConfigSection
+from src.config_protocol import ConfigManager, ConfigSection
 from .validation import ValidationManager
 
 from .common import (

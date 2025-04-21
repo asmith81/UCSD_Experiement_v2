@@ -1,5 +1,5 @@
 {
-    "notebook": "notebooks/pixtral_evaluation.py",
+    "notebook": "notebooks/pixtral_evaluation.ipynb",
     "cells": [
         {
             "id": "environment_setup",
@@ -15,37 +15,34 @@
                             "project_root": {"type": "Optional[Path]", "default": "None"}
                         },
                         "returns": "Dict[str, Any]"
-                    },
-                    "dependencies": [
-                        {
-                            "name": "_find_project_root",
-                            "path": "src/environment.py",
-                            "signature": {
-                                "parameters": {},
-                                "returns": "Path"
-                            }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "configuration",
+            "description": "Load and validate configuration",
+            "required_functions": [
+                {
+                    "name": "load_yaml_config",
+                    "path": "src/config.py",
+                    "signature": {
+                        "parameters": {
+                            "config_path": {"type": "str"}
                         },
-                        {
-                            "name": "_setup_paths",
-                            "path": "src/environment.py",
-                            "signature": {
-                                "parameters": {
-                                    "project_root": {"type": "Path"}
-                                },
-                                "returns": "Dict[str, Path]"
-                            }
+                        "returns": "Dict[str, Any]"
+                    }
+                },
+                {
+                    "name": "load_prompt_template",
+                    "path": "src/prompts.py",
+                    "signature": {
+                        "parameters": {
+                            "prompt_strategy": {"type": "str"},
+                            "prompts_dir": {"type": "Optional[Path]", "default": "None"}
                         },
-                        {
-                            "name": "_setup_logging",
-                            "path": "src/environment.py",
-                            "signature": {
-                                "parameters": {
-                                    "logs_dir": {"type": "Path"}
-                                },
-                                "returns": "Dict[str, Any]"
-                            }
-                        }
-                    ]
+                        "returns": "str"
+                    }
                 }
             ]
         },
@@ -63,40 +60,18 @@
                             "models_dir": {"type": "Optional[Path]", "default": "None"}
                         },
                         "returns": "Tuple[Any, Any]"
-                    },
-                    "dependencies": [
-                        {
-                            "name": "get_model_path",
-                            "path": "src/models/loader.py",
-                            "signature": {
-                                "parameters": {
-                                    "model_name": {"type": "str"},
-                                    "models_dir": {"type": "Optional[Path]"}
-                                },
-                                "returns": "Path"
-                            }
+                    }
+                },
+                {
+                    "name": "download_pixtral_model",
+                    "path": "src/models/pixtral.py",
+                    "signature": {
+                        "parameters": {
+                            "model_path": {"type": "Path"},
+                            "repo_id": {"type": "str"}
                         },
-                        {
-                            "name": "get_hf_token",
-                            "path": "src/models/loader.py",
-                            "signature": {
-                                "parameters": {},
-                                "returns": "str"
-                            }
-                        },
-                        {
-                            "name": "load_pixtral_model",
-                            "path": "src/models/pixtral.py",
-                            "signature": {
-                                "parameters": {
-                                    "model_name": {"type": "str"},
-                                    "config": {"type": "Dict[str, Any]"},
-                                    "models_dir": {"type": "Optional[Path]"}
-                                },
-                                "returns": "Tuple[Any, Any]"
-                            }
-                        }
-                    ]
+                        "returns": "bool"
+                    }
                 }
             ]
         },
@@ -117,72 +92,41 @@
                             "result_validator": {"type": "Optional[callable]", "default": "None"}
                         },
                         "returns": "List[Dict[str, Any]]"
-                    },
-                    "dependencies": [
-                        {
-                            "name": "ModelLoader",
-                            "path": "src/execution.py",
-                            "type": "protocol",
-                            "signature": {
-                                "parameters": {
-                                    "model_name": {"type": "str"},
-                                    "config": {"type": "Dict[str, Any]"},
-                                    "models_dir": {"type": "Optional[Path]", "default": "None"}
-                                },
-                                "returns": "Any"
-                            }
+                    }
+                },
+                {
+                    "name": "process_image_wrapper",
+                    "path": "src/models/pixtral.py",
+                    "signature": {
+                        "parameters": {
+                            "model": {"type": "Any"},
+                            "prompt_template": {"type": "str"},
+                            "image_path": {"type": "Union[str, Path]"},
+                            "field_type": {"type": "str"},
+                            "config": {"type": "DataConfig"}
                         },
-                        {
-                            "name": "StandardModelProcessor",
-                            "path": "src/execution.py",
-                            "type": "class",
-                            "methods": [
-                                {
-                                    "name": "_validate_input",
-                                    "signature": {
-                                        "parameters": {
-                                            "image": {"type": "Union[Image.Image, Dict[str, Any]]"},
-                                            "prompt": {"type": "str"}
-                                        },
-                                        "returns": "None"
-                                    }
-                                },
-                                {
-                                    "name": "_format_prompt",
-                                    "signature": {
-                                        "parameters": {
-                                            "prompt": {"type": "str"},
-                                            "image": {"type": "Union[Image.Image, Dict[str, Any]]"}
-                                        },
-                                        "returns": "Any"
-                                    }
-                                },
-                                {
-                                    "name": "_log_raw_output",
-                                    "signature": {
-                                        "parameters": {
-                                            "raw_output": {"type": "Any"},
-                                            "test_id": {"type": "str"}
-                                        },
-                                        "returns": "None"
-                                    }
-                                },
-                                {
-                                    "name": "process",
-                                    "signature": {
-                                        "parameters": {
-                                            "model": {"type": "Any"},
-                                            "processor": {"type": "Any"},
-                                            "image": {"type": "Union[Image.Image, Dict[str, Any]]"},
-                                            "prompt": {"type": "str"},
-                                            "test_id": {"type": "str"}
-                                        },
-                                        "returns": "Dict[str, Any]"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
+                        "returns": "Dict[str, Any]"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "data_handling",
+            "description": "Handle data loading and processing",
+            "required_functions": [
+                {
+                    "name": "setup_data_paths",
+                    "path": "src/data_utils.py",
+                    "signature": {
+                        "parameters": {
+                            "env_config": {"type": "EnvironmentConfig"},
+                            "image_processor": {"type": "Optional[ImageProcessor]", "default": "None"},
+                            "image_extensions": {"type": "Optional[List[str]]", "default": "None"},
+                            "max_image_size": {"type": "Optional[int]", "default": "None"},
+                            "supported_formats": {"type": "Optional[List[str]]", "default": "None"}
+                        },
+                        "returns": "DataConfig"
+                    }
                 }
             ]
         },
@@ -191,26 +135,61 @@
             "description": "Process and save results",
             "required_functions": [
                 {
-                    "name": "process_results",
-                    "path": "src/results.py",
-                    "dependencies": [
-                        {
-                            "name": "_validate_result_structure",
-                            "path": "src/results.py"
+                    "name": "track_execution",
+                    "path": "src/results_logging.py",
+                    "signature": {
+                        "parameters": {
+                            "execution_log_path": {"type": "Union[str, Path]"},
+                            "model_name": {"type": "str"},
+                            "prompt_type": {"type": "str"},
+                            "quant_level": {"type": "int"},
+                            "status": {"type": "str"},
+                            "error": {"type": "Optional[str]", "default": "None"}
                         },
-                        {
-                            "name": "_generate_summary",
-                            "path": "src/results.py"
+                        "returns": "None"
+                    }
+                },
+                {
+                    "name": "log_result",
+                    "path": "src/results_logging.py",
+                    "signature": {
+                        "parameters": {
+                            "result_path": {"type": "Union[str, Path]"},
+                            "image_id": {"type": "str"},
+                            "model_output": {"type": "Dict[str, Any]"},
+                            "ground_truth": {"type": "GroundTruthData"},
+                            "processing_time": {"type": "float"},
+                            "model_name": {"type": "str"},
+                            "prompt_type": {"type": "str"},
+                            "quant_level": {"type": "int"},
+                            "environment": {"type": "Optional[str]", "default": "None"},
+                            "storage": {"type": "Optional[ResultStorage]", "default": "None"}
                         },
-                        {
-                            "name": "save_result",
-                            "path": "src/results.py"
+                        "returns": "None"
+                    }
+                },
+                {
+                    "name": "evaluate_model_output",
+                    "path": "src/results_logging.py",
+                    "signature": {
+                        "parameters": {
+                            "model_output": {"type": "str"},
+                            "ground_truth": {"type": "GroundTruthData"},
+                            "field_type": {"type": "str"}
                         },
-                        {
-                            "name": "concatenate_results",
-                            "path": "src/results.py"
-                        }
-                    ]
+                        "returns": "Dict[str, Any]"
+                    }
+                },
+                {
+                    "name": "validate_results",
+                    "path": "src/validation.py",
+                    "signature": {
+                        "parameters": {
+                            "result": {"type": "Dict[str, Any]"},
+                            "model_name": {"type": "str"}
+                        },
+                        "returns": "None"
+                    }
                 }
             ]
         }
@@ -227,26 +206,21 @@
             "input": "None",
             "output": "Dict[str, Any]",
             "validation_chain": [
-                "_find_project_root",
-                "_setup_paths",
-                "_setup_logging"
+                "setup_environment"
             ]
         },
         "load_model": {
             "input": "Dict[str, Any]",
             "output": "Tuple[Any, Any]",
             "validation_chain": [
-                "get_model_path",
-                "get_hf_token",
-                "load_pixtral_model"
+                "load_model"
             ]
         },
         "run_test_suite": {
             "input": "Dict[str, Any]",
             "output": "List[Dict[str, Any]]",
             "validation_chain": [
-                "ModelProcessor",
-                "_default_processor"
+                "process_image_wrapper"
             ],
             "error_handling": {
                 "raw_output_logging": {
@@ -292,16 +266,28 @@
             "output": "Dict[str, Any]",
             "transformations": [
                 {
-                    "step": "find_root",
+                    "step": "setup_environment",
                     "input": "None",
-                    "output": "Path",
-                    "error_handling": "ENV002"
+                    "output": "Dict[str, Any]",
+                    "error_handling": "ENV001"
+                }
+            ]
+        },
+        "configuration": {
+            "input": "Dict[str, Any]",
+            "output": "Dict[str, Any]",
+            "transformations": [
+                {
+                    "step": "load_yaml_config",
+                    "input": "Dict[str, Any]",
+                    "output": "Dict[str, Any]",
+                    "error_handling": "CONF001"
                 },
                 {
-                    "step": "setup_paths",
-                    "input": "Path",
-                    "output": "Dict[str, Path]",
-                    "error_handling": "ENV001"
+                    "step": "load_prompt_template",
+                    "input": "Dict[str, Any]",
+                    "output": "str",
+                    "error_handling": "CONF002"
                 }
             ]
         },
@@ -310,14 +296,8 @@
             "output": "Tuple[Any, Any]",
             "transformations": [
                 {
-                    "step": "get_path",
-                    "input": "str",
-                    "output": "Path",
-                    "error_handling": "MOD001"
-                },
-                {
                     "step": "load_model",
-                    "input": "Path",
+                    "input": "Dict[str, Any]",
                     "output": "Tuple[Any, Any]",
                     "error_handling": "MOD002"
                 }
@@ -328,16 +308,28 @@
             "output": "List[Dict[str, Any]]",
             "transformations": [
                 {
-                    "step": "validate",
-                    "input": "Dict[str, Any]",
-                    "output": "None",
-                    "error_handling": "TEST001"
-                },
-                {
-                    "step": "process",
+                    "step": "process_image_wrapper",
                     "input": "Any",
                     "output": "Dict[str, Any]",
                     "error_handling": "TEST002"
+                }
+            ]
+        },
+        "result_processing": {
+            "input": "Dict[str, Any]",
+            "output": "None",
+            "transformations": [
+                {
+                    "step": "track_execution",
+                    "input": "Dict[str, Any]",
+                    "output": "None",
+                    "error_handling": "LOG001"
+                },
+                {
+                    "step": "log_result",
+                    "input": "Dict[str, Any]",
+                    "output": "None",
+                    "error_handling": "LOG002"
                 }
             ]
         }
@@ -348,30 +340,35 @@
             "severity": "high",
             "recovery": "Use default configuration"
         },
-        "ENV002": {
-            "description": "Project root not found",
-            "severity": "critical",
-            "recovery": "Search parent directories"
-        },
-        "MOD001": {
-            "description": "Model file not found",
+        "CONF001": {
+            "description": "Configuration loading error",
             "severity": "high",
-            "recovery": "Download from Hugging Face"
+            "recovery": "Use default configuration"
+        },
+        "CONF002": {
+            "description": "Prompt template loading error",
+            "severity": "high",
+            "recovery": "Use default prompt"
         },
         "MOD002": {
             "description": "Invalid model configuration",
             "severity": "medium",
             "recovery": "Use default configuration"
         },
-        "TEST001": {
-            "description": "Test matrix not found",
-            "severity": "high",
-            "recovery": "Use default test cases"
-        },
         "TEST002": {
             "description": "Model processing failed",
             "severity": "medium",
             "recovery": "Log error and continue"
+        },
+        "LOG001": {
+            "description": "Execution tracking failed",
+            "severity": "low",
+            "recovery": "Continue without tracking"
+        },
+        "LOG002": {
+            "description": "Result logging failed",
+            "severity": "medium",
+            "recovery": "Retry with backup storage"
         }
     }
 } 
