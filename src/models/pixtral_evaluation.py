@@ -1,3 +1,16 @@
+# %% [markdown]
+# Pixtral Model Evaluation Notebook
+# 
+# This notebook implements the Pixtral model for extracting structured data
+# from invoice images. It includes model loading with quantization support,
+# inference functions, and output parsing.
+
+# %% [markdown]
+# ## Setup and Dependencies
+# 
+# First, we'll set up the environment and install all required dependencies.
+
+# %%
 import os
 import sys
 import subprocess
@@ -12,7 +25,12 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# %% [markdown]
+# ## Root Directory Setup
+# 
+# Determine the project root directory and add it to the Python path.
 
+# %%
 # Determine root directory
 try:
     # When running as a script
@@ -30,6 +48,12 @@ except NameError:
 
 sys.path.append(str(ROOT_DIR))
 
+# %% [markdown]
+# ## Install Dependencies
+# 
+# Install all required packages including base requirements, PyTorch, and AI-specific dependencies.
+
+# %%
 # Install dependencies
 print("Installing dependencies...")
 try:
@@ -64,6 +88,12 @@ except subprocess.CalledProcessError as e:
     logger.error(f"Error installing dependencies: {e}")
     raise
 
+# %% [markdown]
+# ## Import Project Modules
+# 
+# Import all necessary project modules after dependencies are installed.
+
+# %%
 # Import project modules
 from src import execution
 from src.environment import setup_environment, download_model
@@ -74,6 +104,12 @@ from src.results_logging import track_execution, log_result, ResultStructure, ev
 from src.validation import validate_results
 from src.data_utils import DataConfig, setup_data_paths
 
+# %% [markdown]
+# ## Environment Setup
+# 
+# Configure the project environment and validate required paths.
+
+# %%
 # Setup environment
 try:
     env = setup_environment(
@@ -95,6 +131,12 @@ except Exception as e:
     logger.error(f"Error setting up environment: {str(e)}")
     raise
 
+# %% [markdown]
+# ## Configuration Loading
+# 
+# Load and validate the model configuration.
+
+# %%
 # Load configuration
 config_path = ROOT_DIR / "config" / "models" / "llama_vision.yaml"
 if not config_path.exists():
@@ -111,6 +153,12 @@ except Exception as e:
     logger.error(f"Error loading configuration: {str(e)}")
     raise
 
+# %% [markdown]
+# ## Data Configuration
+# 
+# Set up data paths and validate data configuration.
+
+# %%
 # Setup data configuration
 try:
     data_config = setup_data_paths(
@@ -124,6 +172,12 @@ except Exception as e:
     logger.error(f"Error setting up data configuration: {str(e)}")
     raise
 
+# %% [markdown]
+# ## Model Configuration
+# 
+# Load and validate model-specific configuration.
+
+# %%
 # Load model configuration
 try:
     # The config is already loaded and validated with required sections
@@ -155,6 +209,12 @@ except Exception as e:
 
 print(f"✓ Model configuration loaded successfully for {MODEL_NAME}")
 
+# %% [markdown]
+# ## Test Matrix Setup
+# 
+# Configure and validate the test matrix for model evaluation.
+
+# %%
 # Set model for this notebook
 MODEL_NAME = "llama_vision"
 TEST_MATRIX_PATH = str(ROOT_DIR / "config" / "test_matrix.json")
@@ -191,20 +251,16 @@ except Exception as e:
     logger.error(f"Error validating test matrix: {str(e)}")
     raise
 
-"""
-Pixtral model implementation for invoice data extraction.
+# %% [markdown]
+# ## Pixtral Model Implementation
+# 
+# The core Pixtral model implementation for invoice data extraction.
 
-This module implements the Pixtral model for extracting structured data
-from invoice images. It includes model loading with quantization support,
-inference functions, and output parsing.
-"""
-
+# %%
 from typing import Dict, Any, Optional, Union
 import torch
 from transformers import AutoModelForCausalLM, AutoProcessor, BitsAndBytesConfig
 from PIL import Image
-import logging
-from pathlib import Path
 import time
 
 from .common import (
@@ -214,13 +270,6 @@ from .common import (
 )
 from ..data_utils import DataConfig
 from ..results_logging import ModelResponse
-
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-logger = logging.getLogger(__name__)
 
 class PixtralModel:
     """Pixtral model implementation."""
