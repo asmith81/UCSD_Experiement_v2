@@ -17,7 +17,7 @@ from transformers import BitsAndBytesConfig
 import json
 from .base_model import BaseModel
 from src.config_protocol import ConfigManager, ConfigSection
-from .validation import ValidationManager
+from src.validation import ValidationManager
 
 from .common import (
     preprocess_image,

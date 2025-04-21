@@ -8,7 +8,7 @@ import torch
 from datetime import datetime
 from src.config_protocol import ConfigManager
 from src.validation import ValidationManager
-from .performance_optimizer import PerformanceOptimizer
+from src.performance_optimizer import PerformanceOptimizer
 
 class BaseModel:
     """Base model class with performance optimization."""
