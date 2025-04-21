@@ -112,7 +112,7 @@
                             "model_name": {"type": "str"},
                             "test_matrix_path": {"type": "Union[str, Path]"},
                             "model_loader": {"type": "Optional[ModelLoader]", "default": "None"},
-                            "processor": {"type": "Optional[ModelProcessor]", "default": "None"},
+                            "processor": {"type": "Optional[StandardModelProcessor]", "default": "None"},
                             "prompt_loader": {"type": "Optional[callable]", "default": "None"},
                             "result_validator": {"type": "Optional[callable]", "default": "None"}
                         },
@@ -120,7 +120,20 @@
                     },
                     "dependencies": [
                         {
-                            "name": "ModelProcessor",
+                            "name": "ModelLoader",
+                            "path": "src/execution.py",
+                            "type": "protocol",
+                            "signature": {
+                                "parameters": {
+                                    "model_name": {"type": "str"},
+                                    "config": {"type": "Dict[str, Any]"},
+                                    "models_dir": {"type": "Optional[Path]", "default": "None"}
+                                },
+                                "returns": "Any"
+                            }
+                        },
+                        {
+                            "name": "StandardModelProcessor",
                             "path": "src/execution.py",
                             "type": "class",
                             "methods": [

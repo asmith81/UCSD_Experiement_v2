@@ -15,6 +15,16 @@ from .environment import setup_environment
 
 logger = logging.getLogger(__name__)
 
+class ModelLoader(Protocol):
+    """Protocol for model loading functions."""
+    def __call__(
+        self,
+        model_name: str,
+        config: Dict[str, Any],
+        models_dir: Optional[Path] = None
+    ) -> Any:
+        ...
+
 class ModelProcessor(Protocol):
     """Protocol for model processing functions."""
     def __call__(
@@ -25,8 +35,8 @@ class ModelProcessor(Protocol):
     ) -> Dict[str, Any]:
         ...
 
-class ModelProcessor:
-    """Standardized model processing protocol implementation."""
+class StandardModelProcessor:
+    """Standardized model processing implementation."""
     
     def __init__(self, model_type: str):
         self.model_type = model_type
@@ -78,7 +88,7 @@ def run_test_suite(
     model_name: str,
     test_matrix_path: Union[str, Path],
     model_loader: Optional[ModelLoader] = None,
-    processor: Optional[ModelProcessor] = None,
+    processor: Optional[StandardModelProcessor] = None,
     prompt_loader: Optional[callable] = None,
     result_validator: Optional[callable] = None
 ) -> List[Dict[str, Any]]:
@@ -116,7 +126,7 @@ def run_test_suite(
                     
                 # Process image
                 if processor is not None:
-                    result = processor(model, test_case['image'], prompt)
+                    result = processor.process(model, processor, test_case['image'], prompt, test_case.get('test_id', 'unknown'))
                 else:
                     result = _default_processor(model, test_case['image'], prompt)
                     
