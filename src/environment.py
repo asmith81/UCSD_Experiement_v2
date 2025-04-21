@@ -7,7 +7,18 @@ import os
 import sys
 import logging
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, TypedDict
+
+class EnvironmentConfig(TypedDict):
+    """Configuration for environment setup."""
+    data_dir: Path
+    models_dir: Path
+    logs_dir: Path
+    results_dir: Path
+    prompts_dir: Path
+    config_dir: Path
+    cuda_visible_devices: Optional[str]
+    seed: int
 
 def setup_environment(
     cuda_visible_devices: Optional[str] = None,
