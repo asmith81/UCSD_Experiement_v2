@@ -10,6 +10,9 @@ import subprocess
 from pathlib import Path
 import logging
 import json
+import torch
+from PIL import Image
+from typing import Union, Dict, Any, List
 
 # Configure logging first
 logging.basicConfig(
@@ -74,7 +77,7 @@ except subprocess.CalledProcessError as e:
 from src import execution
 from src.environment import setup_environment, download_model
 from src.config import load_yaml_config
-from src.models.llama_vision import load_model, process_image_wrapper, download_llama_vision_model
+from src.models.pixtral import load_model, process_image_wrapper, download_pixtral_model
 from src.prompts import load_prompt_template
 from src.results_logging import track_execution, log_result, ResultStructure, evaluate_model_output
 from src.validation import validate_results
@@ -102,14 +105,14 @@ except Exception as e:
     raise
 
 # Load configuration
-config_path = ROOT_DIR / "config" / "models" / "llama_vision.yaml"
+config_path = ROOT_DIR / "config" / "models" / "pixtral.yaml"
 if not config_path.exists():
     raise FileNotFoundError(f"Configuration file not found: {config_path}")
 
 try:
     config = load_yaml_config(str(config_path))
     # Validate required configuration sections
-    required_sections = ['name', 'loading', 'quantization', 'prompt', 'inference']
+    required_sections = ['architecture', 'hardware', 'inference', 'performance', 'error_handling', 'model_params']
     missing_sections = [section for section in required_sections if section not in config]
     if missing_sections:
         raise ValueError(f"Configuration missing required sections: {missing_sections}")
@@ -122,8 +125,8 @@ try:
     data_config = setup_data_paths(
         env_config=env,
         image_extensions=['.jpg', '.jpeg', '.png'],
-        max_image_size=1120,
-        supported_formats=['RGB', 'L']
+        max_image_size=config['model_params']['max_image_size'],
+        supported_formats=[config['model_params']['image_format']]
     )
     logger.info("Data configuration setup successfully")
 except Exception as e:
@@ -162,7 +165,7 @@ except Exception as e:
 print(f"✓ Model configuration loaded successfully for {MODEL_NAME}")
 
 # Set model for this notebook
-MODEL_NAME = "llama_vision"
+MODEL_NAME = "pixtral"
 TEST_MATRIX_PATH = str(ROOT_DIR / "config" / "test_matrix.json")
 EXECUTION_LOG_PATH = env['logs_dir'] / f"{MODEL_NAME}_execution.log"
 
