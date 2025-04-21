@@ -45,18 +45,6 @@
                                 "returns": "Dict[str, Any]"
                             }
                         }
-                    ],
-                    "error_patterns": [
-                        {
-                            "code": "ENV001",
-                            "message": "Invalid CUDA device string",
-                            "recovery": "Use default device configuration"
-                        },
-                        {
-                            "code": "ENV002",
-                            "message": "Project root not found",
-                            "recovery": "Search parent directories"
-                        }
                     ]
                 }
             ]
@@ -97,40 +85,16 @@
                             }
                         },
                         {
-                            "name": "_load_pixtral",
-                            "path": "src/models/loader.py",
+                            "name": "load_pixtral_model",
+                            "path": "src/models/pixtral.py",
                             "signature": {
                                 "parameters": {
                                     "model_name": {"type": "str"},
                                     "config": {"type": "Dict[str, Any]"},
                                     "models_dir": {"type": "Optional[Path]"}
                                 },
-                                "returns": "Tuple[LlavaForConditionalGeneration, AutoProcessor]"
-                            },
-                            "dependencies": [
-                                {
-                                    "name": "LlavaForConditionalGeneration",
-                                    "path": "transformers",
-                                    "type": "class"
-                                },
-                                {
-                                    "name": "AutoProcessor",
-                                    "path": "transformers",
-                                    "type": "class"
-                                }
-                            ]
-                        }
-                    ],
-                    "error_patterns": [
-                        {
-                            "code": "MOD001",
-                            "message": "Model file not found",
-                            "recovery": "Download from Hugging Face"
-                        },
-                        {
-                            "code": "MOD002",
-                            "message": "Invalid model configuration",
-                            "recovery": "Use default configuration"
+                                "returns": "Tuple[Any, Any]"
+                            }
                         }
                     ]
                 }
@@ -148,7 +112,9 @@
                             "model_name": {"type": "str"},
                             "test_matrix_path": {"type": "Union[str, Path]"},
                             "model_loader": {"type": "Optional[ModelLoader]", "default": "None"},
-                            "processor": {"type": "Optional[ModelProcessor]", "default": "None"}
+                            "processor": {"type": "Optional[ModelProcessor]", "default": "None"},
+                            "prompt_loader": {"type": "Optional[callable]", "default": "None"},
+                            "result_validator": {"type": "Optional[callable]", "default": "None"}
                         },
                         "returns": "List[Dict[str, Any]]"
                     },
@@ -159,13 +125,6 @@
                             "type": "class",
                             "methods": [
                                 {
-                                    "name": "_validate_model_components",
-                                    "signature": {
-                                        "parameters": {},
-                                        "returns": "None"
-                                    }
-                                },
-                                {
                                     "name": "_validate_input",
                                     "signature": {
                                         "parameters": {
@@ -173,6 +132,16 @@
                                             "prompt": {"type": "str"}
                                         },
                                         "returns": "None"
+                                    }
+                                },
+                                {
+                                    "name": "_format_prompt",
+                                    "signature": {
+                                        "parameters": {
+                                            "prompt": {"type": "str"},
+                                            "image": {"type": "Union[Image.Image, Dict[str, Any]]"}
+                                        },
+                                        "returns": "Any"
                                     }
                                 },
                                 {
@@ -186,28 +155,19 @@
                                     }
                                 },
                                 {
-                                    "name": "_process_output",
+                                    "name": "process",
                                     "signature": {
                                         "parameters": {
-                                            "raw_output": {"type": "Any"},
-                                            "formatted_input": {"type": "Any"}
+                                            "model": {"type": "Any"},
+                                            "processor": {"type": "Any"},
+                                            "image": {"type": "Union[Image.Image, Dict[str, Any]]"},
+                                            "prompt": {"type": "str"},
+                                            "test_id": {"type": "str"}
                                         },
                                         "returns": "Dict[str, Any]"
                                     }
                                 }
                             ]
-                        }
-                    ],
-                    "error_patterns": [
-                        {
-                            "code": "TEST001",
-                            "message": "Test matrix not found",
-                            "recovery": "Use default test cases"
-                        },
-                        {
-                            "code": "TEST002",
-                            "message": "Model processing failed",
-                            "recovery": "Log error and continue"
                         }
                     ]
                 }
@@ -265,7 +225,7 @@
             "validation_chain": [
                 "get_model_path",
                 "get_hf_token",
-                "_load_pixtral"
+                "load_pixtral_model"
             ]
         },
         "run_test_suite": {

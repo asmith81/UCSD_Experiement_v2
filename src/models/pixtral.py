@@ -6,7 +6,7 @@ from invoice images. It includes model loading with quantization support,
 inference functions, and output parsing.
 """
 
-from typing import Dict, Any, Optional, Union, List
+from typing import Dict, Any, Optional, Union, List, Tuple
 import torch
 from transformers import LlavaForConditionalGeneration, AutoProcessor
 from PIL import Image
@@ -26,6 +26,7 @@ from .common import (
 )
 from ..data_utils import DataConfig
 from ..results_logging import ModelResponse
+from .loader import get_model_path, get_hf_token
 
 # Configure logging
 logging.basicConfig(
@@ -330,4 +331,81 @@ def process_image_wrapper(
     # Ensure field type is set in model response
     response['model_response']['field_type'] = field_type
     
-    return response 
+    return response
+
+def load_pixtral_model(model_name: str, config: Dict[str, Any], models_dir: Optional[Path] = None) -> Tuple[Any, Any]:
+    """Load Pixtral model with proper configuration."""
+    try:
+        model_path = get_model_path(model_name, models_dir)
+        hf_token = get_hf_token()
+        
+        # Get quantization level from config
+        quant_level = config.get("quant_level", 16)
+        if quant_level not in [4, 8, 16, 32]:
+            raise ValueError(f"Invalid quantization level: {quant_level}. Must be one of [4, 8, 16, 32]")
+            
+        # Configure quantization
+        quantization_config = {
+            "load_in_4bit": quant_level == 4,
+            "load_in_8bit": quant_level == 8,
+            "torch_dtype": torch.float16 if quant_level == 16 else torch.float32
+        }
+        
+        # Load model
+        model = LlavaForConditionalGeneration.from_pretrained(
+            model_path,
+            token=hf_token,
+            device_map="auto",
+            **quantization_config
+        )
+        
+        # Load processor
+        processor = AutoProcessor.from_pretrained(
+            model_path,
+            token=hf_token
+        )
+        
+        return model, processor
+    
+    except Exception as e:
+        logger.error(f"Error loading Pixtral model: {str(e)}")
+        raise
+
+def process_pixtral_image(model: Any, processor: Any, image: Union[Image.Image, Dict[str, Any]], prompt: str) -> Dict[str, Any]:
+    """Process image through Pixtral model."""
+    try:
+        # Format input
+        if isinstance(image, dict) and "images" in image:
+            image_tokens = "[IMG]" * len(image["images"])
+            formatted_prompt = f"<s>[INST]{prompt}\n{image_tokens}[/INST]"
+        else:
+            formatted_prompt = f"<s>[INST]{prompt}\n[IMG][/INST]"
+            
+        # Process input
+        inputs = processor(
+            image, 
+            formatted_prompt, 
+            text_kwargs={"add_special_tokens": False}, 
+            return_tensors="pt"
+        ).to(model.device)
+        
+        # Generate output
+        outputs = model.generate(
+            **inputs,
+            temperature=0.7,
+            top_p=0.9,
+            max_new_tokens=2048
+        )
+        
+        # Decode output
+        result = processor.decode(outputs[0])[len(formatted_prompt):]
+        
+        return {
+            "text": result,
+            "model_type": "pixtral",
+            "timestamp": datetime.now().isoformat()
+        }
+    
+    except Exception as e:
+        logger.error(f"Error processing image with Pixtral: {str(e)}")
+        raise 
