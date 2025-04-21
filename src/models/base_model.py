@@ -7,7 +7,7 @@ from pathlib import Path
 import torch
 from datetime import datetime
 from src.config_protocol import ConfigManager
-from .validation import ValidationManager
+from src.validation import ValidationManager
 from .performance_optimizer import PerformanceOptimizer
 
 class BaseModel:
